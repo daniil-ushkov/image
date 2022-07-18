@@ -652,6 +652,9 @@ type SystemContext struct {
 	CompressionFormat *compression.Algorithm
 	// CompressionLevel specifies what compression level is used
 	CompressionLevel *int
+
+	// Proxy is address of SOCKS5 proxy, which will be used in HTTP requests.
+	Proxy string
 }
 
 // ProgressEvent is the type of events a progress reader can produce
