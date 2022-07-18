@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	internalManifest "github.com/containers/image/v5/internal/manifest"
-	"github.com/containers/image/v5/types"
 	"github.com/containers/libtrust"
+	internalManifest "github.com/daniil-ushkov/image/v5/internal/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"
 )

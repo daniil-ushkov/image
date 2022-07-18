@@ -5,9 +5,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/containers/image/v5/internal/putblobdigest"
-	"github.com/containers/image/v5/internal/tmpdir"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/putblobdigest"
+	"github.com/daniil-ushkov/image/v5/internal/tmpdir"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // ComputeBlobInfo streams a blob to a temporary file and populates Digest and Size in inputInfo.

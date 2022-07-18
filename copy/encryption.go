@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/containers/image/v5/types"
 	"github.com/containers/ocicrypt"
+	"github.com/daniil-ushkov/image/v5/types"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

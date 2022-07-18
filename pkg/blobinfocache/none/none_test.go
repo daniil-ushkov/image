@@ -1,7 +1,7 @@
 package none
 
 import (
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 var _ types.BlobInfoCache = &noCache{}

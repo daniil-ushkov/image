@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/pkg/blobinfocache/internal/prioritize"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/pkg/blobinfocache/internal/prioritize"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

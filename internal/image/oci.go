@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/internal/iolimits"
-	internalManifest "github.com/containers/image/v5/internal/manifest"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/pkg/blobinfocache/none"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/internal/iolimits"
+	internalManifest "github.com/daniil-ushkov/image/v5/internal/manifest"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/pkg/blobinfocache/none"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"
 )

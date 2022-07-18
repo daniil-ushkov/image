@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/containers/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/internal/private"
 	"github.com/stretchr/testify/assert"
 )
 

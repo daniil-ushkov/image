@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containers/image/v5/internal/signature"
-	"github.com/containers/image/v5/version"
+	"github.com/daniil-ushkov/image/v5/internal/signature"
+	"github.com/daniil-ushkov/image/v5/version"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/stretchr/testify/assert"

@@ -7,19 +7,19 @@ import (
 	// register all known transports
 	// NOTE: Make sure docs/containers-policy.json.5.md is updated when adding or updating
 	// a transport.
-	_ "github.com/containers/image/v5/directory"
-	_ "github.com/containers/image/v5/docker"
-	_ "github.com/containers/image/v5/docker/archive"
-	_ "github.com/containers/image/v5/oci/archive"
-	_ "github.com/containers/image/v5/oci/layout"
-	_ "github.com/containers/image/v5/openshift"
-	_ "github.com/containers/image/v5/sif"
-	_ "github.com/containers/image/v5/tarball"
+	_ "github.com/daniil-ushkov/image/v5/directory"
+	_ "github.com/daniil-ushkov/image/v5/docker"
+	_ "github.com/daniil-ushkov/image/v5/docker/archive"
+	_ "github.com/daniil-ushkov/image/v5/oci/archive"
+	_ "github.com/daniil-ushkov/image/v5/oci/layout"
+	_ "github.com/daniil-ushkov/image/v5/openshift"
+	_ "github.com/daniil-ushkov/image/v5/sif"
+	_ "github.com/daniil-ushkov/image/v5/tarball"
 
 	// The ostree transport is registered by ostree*.go
 	// The storage transport is registered by storage*.go
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // ParseImageName converts a URL-like image name to a types.ImageReference.

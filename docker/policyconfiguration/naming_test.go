@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/containers/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

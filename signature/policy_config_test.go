@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/containers/image/v5/directory"
-	"github.com/containers/image/v5/docker"
+	"github.com/daniil-ushkov/image/v5/directory"
+	"github.com/daniil-ushkov/image/v5/docker"
 
 	// this import is needed  where we use the "atomic" transport in TestPolicyUnmarshalJSON
-	_ "github.com/containers/image/v5/openshift"
-	"github.com/containers/image/v5/types"
+	_ "github.com/daniil-ushkov/image/v5/openshift"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

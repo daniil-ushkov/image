@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

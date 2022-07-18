@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containers/image/v5/pkg/compression"
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/pkg/compression"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

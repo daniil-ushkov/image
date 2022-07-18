@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	internalManifest "github.com/containers/image/v5/internal/manifest"
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
-	"github.com/containers/image/v5/types"
 	ociencspec "github.com/containers/ocicrypt/spec"
+	internalManifest "github.com/daniil-ushkov/image/v5/internal/manifest"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"

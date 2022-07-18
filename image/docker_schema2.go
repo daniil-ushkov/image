@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/containers/image/v5/internal/image"
+	"github.com/daniil-ushkov/image/v5/internal/image"
 )
 
 // GzippedEmptyLayer is a gzip-compressed version of an empty tar file (1024 NULL bytes)

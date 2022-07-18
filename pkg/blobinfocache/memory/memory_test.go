@@ -3,8 +3,8 @@ package memory
 import (
 	"testing"
 
-	"github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/pkg/blobinfocache/internal/test"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/pkg/blobinfocache/internal/test"
 )
 
 var _ blobinfocache.BlobInfoCache2 = &cache{}

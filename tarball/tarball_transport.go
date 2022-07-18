@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 const (

@@ -3,6 +3,6 @@
 
 package ostree
 
-import "github.com/containers/image/v5/internal/private"
+import "github.com/daniil-ushkov/image/v5/internal/private"
 
 var _ private.ImageSource = (*ostreeImageSource)(nil)

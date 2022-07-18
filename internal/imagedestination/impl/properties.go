@@ -1,6 +1,6 @@
 package impl
 
-import "github.com/containers/image/v5/types"
+import "github.com/daniil-ushkov/image/v5/types"
 
 // Properties collects properties of an ImageDestination that are constant throughout its lifetime
 // (but might differ across instances).

@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/internal/iolimits"
-	"github.com/containers/image/v5/version"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/internal/iolimits"
+	"github.com/daniil-ushkov/image/v5/version"
 	"github.com/sirupsen/logrus"
 )
 

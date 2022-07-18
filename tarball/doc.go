@@ -7,11 +7,11 @@
 //	import (
 //		"context"
 //
-//		cp "github.com/containers/image/v5/copy"
-//		"github.com/containers/image/v5/signature"
-//		"github.com/containers/image/v5/tarball"
-//		"github.com/containers/image/v5/transports/alltransports"
-//		"github.com/containers/image/v5/types"
+//		cp "github.com/daniil-ushkov/image/v5/copy"
+//		"github.com/daniil-ushkov/image/v5/signature"
+//		"github.com/daniil-ushkov/image/v5/tarball"
+//		"github.com/daniil-ushkov/image/v5/transports/alltransports"
+//		"github.com/daniil-ushkov/image/v5/types"
 //		imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"
 //	)
 //

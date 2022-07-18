@@ -3,7 +3,7 @@ package impl
 import (
 	"context"
 
-	"github.com/containers/image/v5/internal/signature"
+	"github.com/daniil-ushkov/image/v5/internal/signature"
 	"github.com/opencontainers/go-digest"
 )
 

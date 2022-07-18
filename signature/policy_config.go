@@ -21,16 +21,16 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/signature/internal"
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
 	"github.com/containers/storage/pkg/homedir"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/signature/internal"
+	"github.com/daniil-ushkov/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // systemDefaultPolicyPath is the policy path used for DefaultPolicy().
 // You can override this at build time with
-// -ldflags '-X github.com/containers/image/v5/signature.systemDefaultPolicyPath=$your_path'
+// -ldflags '-X github.com/daniil-ushkov/image/v5/signature.systemDefaultPolicyPath=$your_path'
 var systemDefaultPolicyPath = builtinDefaultPolicyPath
 
 // userPolicyFile is the path to the per user policy path.

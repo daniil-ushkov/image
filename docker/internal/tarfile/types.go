@@ -1,7 +1,7 @@
 package tarfile
 
 import (
-	"github.com/containers/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/manifest"
 	"github.com/opencontainers/go-digest"
 )
 

@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/internal/signature"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/signature/internal"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/internal/signature"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/signature/internal"
 	sigstoreSignature "github.com/sigstore/sigstore/pkg/signature"
 )
 

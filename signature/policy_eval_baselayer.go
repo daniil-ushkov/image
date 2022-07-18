@@ -5,7 +5,7 @@ package signature
 import (
 	"context"
 
-	"github.com/containers/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/internal/private"
 	"github.com/sirupsen/logrus"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // NoPutBlobPartialInitialize implements parts of private.ImageDestination

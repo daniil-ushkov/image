@@ -3,11 +3,11 @@ package copy
 import (
 	"fmt"
 
-	"github.com/containers/image/v5/docker/reference"
-	internalsig "github.com/containers/image/v5/internal/signature"
-	"github.com/containers/image/v5/signature"
-	"github.com/containers/image/v5/signature/sigstore"
-	"github.com/containers/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	internalsig "github.com/daniil-ushkov/image/v5/internal/signature"
+	"github.com/daniil-ushkov/image/v5/signature"
+	"github.com/daniil-ushkov/image/v5/signature/sigstore"
+	"github.com/daniil-ushkov/image/v5/transports"
 )
 
 // createSignature creates a new signature of manifest using keyIdentity.

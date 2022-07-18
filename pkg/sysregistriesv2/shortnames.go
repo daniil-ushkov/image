@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/internal/rootless"
-	"github.com/containers/image/v5/types"
 	"github.com/containers/storage/pkg/homedir"
 	"github.com/containers/storage/pkg/lockfile"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/internal/rootless"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/sirupsen/logrus"
 )
 

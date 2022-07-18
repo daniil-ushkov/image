@@ -1,4 +1,4 @@
-module github.com/containers/image/v5
+module github.com/daniil-ushkov/image/v5
 
 go 1.17
 

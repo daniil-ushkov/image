@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containers/image/v5/internal/imagesource/impl"
-	"github.com/containers/image/v5/internal/imagesource/stubs"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/imagesource/impl"
+	"github.com/daniil-ushkov/image/v5/internal/imagesource/stubs"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/klauspost/pgzip"
 	digest "github.com/opencontainers/go-digest"
 	imgspecs "github.com/opencontainers/image-spec/specs-go"

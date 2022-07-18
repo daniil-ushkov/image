@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	internal "github.com/containers/image/v5/docker/internal/tarfile"
-	"github.com/containers/image/v5/types"
+	internal "github.com/daniil-ushkov/image/v5/docker/internal/tarfile"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 )
 

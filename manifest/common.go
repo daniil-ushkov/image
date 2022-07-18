@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
-	"github.com/containers/image/v5/types"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // knownTransports is a registry of known ImageTransport instances.

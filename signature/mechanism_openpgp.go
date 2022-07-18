@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containers/image/v5/signature/internal"
 	"github.com/containers/storage/pkg/homedir"
+	"github.com/daniil-ushkov/image/v5/signature/internal"
 	// This is a fallback code; the primary recommendation is to use the gpgme mechanism
 	// implementation, which is out-of-process and more appropriate for handling long-term private key material
 	// than any Go implementation.

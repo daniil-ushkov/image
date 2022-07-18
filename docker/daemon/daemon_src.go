@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containers/image/v5/docker/internal/tarfile"
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/internal/tarfile"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 type daemonImageSource struct {

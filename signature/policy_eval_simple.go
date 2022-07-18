@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/transports"
 )
 
 func (pr *prInsecureAcceptAnything) isSignatureAuthorAccepted(ctx context.Context, image private.UnparsedImage, sig []byte) (signatureAcceptanceResult, *Signature, error) {

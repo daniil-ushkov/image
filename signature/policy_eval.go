@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/internal/unparsedimage"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/internal/unparsedimage"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/sirupsen/logrus"
 )
 

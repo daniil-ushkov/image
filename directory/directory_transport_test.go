@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	_ "github.com/containers/image/v5/internal/testing/explicitfilepath-tmpdir"
-	"github.com/containers/image/v5/types"
+	_ "github.com/daniil-ushkov/image/v5/internal/testing/explicitfilepath-tmpdir"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

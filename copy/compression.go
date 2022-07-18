@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	internalblobinfocache "github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/pkg/compression"
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
-	"github.com/containers/image/v5/types"
+	internalblobinfocache "github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/pkg/compression"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/sirupsen/logrus"
 )
 

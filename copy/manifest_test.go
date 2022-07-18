@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/containers/image/v5/internal/testing/mocks"
-	"github.com/containers/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/internal/testing/mocks"
+	"github.com/daniil-ushkov/image/v5/manifest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

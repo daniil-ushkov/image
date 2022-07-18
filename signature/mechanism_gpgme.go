@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containers/image/v5/signature/internal"
+	"github.com/daniil-ushkov/image/v5/signature/internal"
 	"github.com/proglottis/gpgme"
 )
 

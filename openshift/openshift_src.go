@@ -8,12 +8,12 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/containers/image/v5/docker"
-	"github.com/containers/image/v5/internal/imagesource/impl"
-	"github.com/containers/image/v5/internal/imagesource/stubs"
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/internal/signature"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker"
+	"github.com/daniil-ushkov/image/v5/internal/imagesource/impl"
+	"github.com/daniil-ushkov/image/v5/internal/imagesource/stubs"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/internal/signature"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )
