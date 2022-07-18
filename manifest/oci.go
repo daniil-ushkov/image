@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
-	"github.com/containers/image/v5/types"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	ociencspec "github.com/containers/ocicrypt/spec"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"

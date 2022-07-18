@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/containers/image/v5/docker/internal/tarfile"
-	"github.com/containers/image/v5/docker/reference"
-	ctrImage "github.com/containers/image/v5/image"
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/internal/tarfile"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	ctrImage "github.com/daniil-ushkov/image/v5/image"
+	"github.com/daniil-ushkov/image/v5/transports"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/pkg/errors"
 )
 

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/containers/image/v5/internal/putblobdigest"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/putblobdigest"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

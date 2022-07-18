@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/containers/image/v5/internal/private"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/private"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // FromPublic(src) returns an object that provides the private.ImageSource API

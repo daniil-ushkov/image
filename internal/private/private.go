@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/types"
 )
 
 // ImageSource is an internal extension to the types.ImageSource interface.

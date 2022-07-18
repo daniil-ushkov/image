@@ -8,9 +8,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/pkg/tlsclientconfig"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/pkg/tlsclientconfig"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/opencontainers/go-digest"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"

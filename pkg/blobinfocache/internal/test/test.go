@@ -4,9 +4,9 @@ package test
 import (
 	"testing"
 
-	"github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/internal/testing/mocks"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/internal/testing/mocks"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/assert"
 )

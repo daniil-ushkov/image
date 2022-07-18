@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/containers/image/v5/pkg/compression/internal"
-	"github.com/containers/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/pkg/compression/internal"
+	"github.com/daniil-ushkov/image/v5/pkg/compression/types"
 	"github.com/containers/storage/pkg/chunked/compressor"
 	"github.com/klauspost/pgzip"
 	"github.com/pkg/errors"

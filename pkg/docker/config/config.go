@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/pkg/sysregistriesv2"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/pkg/sysregistriesv2"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/containers/storage/pkg/homedir"
 	"github.com/containers/storage/pkg/ioutils"
 	helperclient "github.com/docker/docker-credential-helpers/client"

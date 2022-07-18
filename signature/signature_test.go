@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/containers/image/v5/version"
+	"github.com/daniil-ushkov/image/v5/version"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

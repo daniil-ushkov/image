@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/containers/image/v5/internal/putblobdigest"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/putblobdigest"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 	imgspec "github.com/opencontainers/image-spec/specs-go"
 	imgspecv1 "github.com/opencontainers/image-spec/specs-go/v1"

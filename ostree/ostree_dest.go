@@ -20,10 +20,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/containers/image/v5/internal/putblobdigest"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
 	"github.com/containers/storage/pkg/archive"
+	"github.com/daniil-ushkov/image/v5/internal/putblobdigest"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/klauspost/pgzip"
 	"github.com/opencontainers/go-digest"
 	selinux "github.com/opencontainers/selinux/go-selinux"

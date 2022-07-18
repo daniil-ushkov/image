@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/containers/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
 	"github.com/opencontainers/go-digest"
 )
 

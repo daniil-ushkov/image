@@ -1,9 +1,9 @@
 package blobinfocache
 
 import (
-	"github.com/containers/image/v5/pkg/compression"
-	compressiontypes "github.com/containers/image/v5/pkg/compression/types"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/pkg/compression"
+	compressiontypes "github.com/daniil-ushkov/image/v5/pkg/compression/types"
+	"github.com/daniil-ushkov/image/v5/types"
 	digest "github.com/opencontainers/go-digest"
 )
 

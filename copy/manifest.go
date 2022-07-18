@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

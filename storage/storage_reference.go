@@ -7,9 +7,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/docker/reference"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/containers/storage"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"

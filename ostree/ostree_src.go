@@ -13,8 +13,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/manifest"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/containers/storage/pkg/ioutils"
 	"github.com/klauspost/pgzip"
 	digest "github.com/opencontainers/go-digest"

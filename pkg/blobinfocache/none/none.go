@@ -2,8 +2,8 @@
 package none
 
 import (
-	"github.com/containers/image/v5/internal/blobinfocache"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/blobinfocache"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/opencontainers/go-digest"
 )
 

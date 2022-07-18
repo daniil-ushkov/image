@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/containers/image/v5/internal/rootless"
-	"github.com/containers/image/v5/pkg/blobinfocache/boltdb"
-	"github.com/containers/image/v5/pkg/blobinfocache/memory"
-	"github.com/containers/image/v5/types"
+	"github.com/daniil-ushkov/image/v5/internal/rootless"
+	"github.com/daniil-ushkov/image/v5/pkg/blobinfocache/boltdb"
+	"github.com/daniil-ushkov/image/v5/pkg/blobinfocache/memory"
+	"github.com/daniil-ushkov/image/v5/types"
 	"github.com/sirupsen/logrus"
 )
 
