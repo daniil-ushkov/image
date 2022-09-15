@@ -2,6 +2,7 @@ package daemon
 
 import (
 	"net/http"
+	"net/url"
 	"path/filepath"
 
 	"github.com/daniil-ushkov/image/v5/types"
@@ -37,7 +38,11 @@ func newDockerClient(sys *types.SystemContext) (*dockerclient.Client, error) {
 	var httpClient *http.Client
 	if url.Scheme != "unix" {
 		if url.Scheme == "http" {
-			httpClient = httpConfig()
+			hc, err := httpConfig(sys)
+			if err != nil {
+				return nil, err
+			}
+			httpClient = hc
 		} else {
 			hc, err := tlsConfig(sys)
 			if err != nil {
@@ -67,19 +72,41 @@ func tlsConfig(sys *types.SystemContext) (*http.Client, error) {
 		return nil, err
 	}
 
+	tr := &http.Transport{
+		TLSClientConfig: tlsc,
+	}
+
+	if sys.Proxy != "" {
+		proxyUrl, err := url.Parse(sys.Proxy)
+		if err != nil {
+			return nil, err
+		}
+		tr.Proxy = http.ProxyURL(proxyUrl)
+	}
+
 	return &http.Client{
-		Transport: &http.Transport{
-			TLSClientConfig: tlsc,
-		},
+		Transport:     tr,
 		CheckRedirect: dockerclient.CheckRedirect,
 	}, nil
 }
 
-func httpConfig() *http.Client {
-	return &http.Client{
-		Transport: &http.Transport{
-			TLSClientConfig: nil,
-		},
+func httpConfig(sys *types.SystemContext) (*http.Client, error) {
+	tr := &http.Transport{
+		TLSClientConfig: nil,
+	}
+
+	if sys.Proxy != "" {
+		proxyUrl, err := url.Parse(sys.Proxy)
+		if err != nil {
+			return nil, nil
+		}
+		tr.Proxy = http.ProxyURL(proxyUrl)
+	}
+
+	client := &http.Client{
+		Transport:     tr,
 		CheckRedirect: dockerclient.CheckRedirect,
 	}
+
+	return client, nil
 }
